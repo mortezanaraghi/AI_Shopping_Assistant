@@ -30,10 +30,10 @@ The system implements a sophisticated multi-layered architecture:
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    Main Orchestrator                        │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────┐ │
-│  │   ReAct     │ │  Temporal   │ │ Enhanced    │ │ Legacy  │ │
-│  │Orchestrator │ │Orchestrator │ │Orchestrator │ │Orchestr.│ │
-│  └─────────────┘ └─────────────┘ └─────────────┘ └─────────┘ │
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ ┌─────────┐ │
+│ │   ReAct     │ │  Temporal   │ │ Enhanced    │ │ Legacy  │ │
+│ │Orchestrator │ │Orchestrator │ │Orchestrator │ │Orchestr.│ │
+│ └─────────────┘ └─────────────┘ └─────────────┘ └─────────┘ │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
