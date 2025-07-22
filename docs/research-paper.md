@@ -1,9 +1,10 @@
 
 # Product.ai: A Dual-Architecture System for Expert-Level Conversational Commerce
 
-**Author:** Morteza Shahbazi
+**Author:** Morteza Naraghi
 
-**Date:** July 16, 2024
+**Date:** July 19, 2025
+
 
 ---
 
