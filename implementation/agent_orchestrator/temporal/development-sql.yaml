@@ -1,0 +1,7 @@
+system.forceSearchAttributesCacheRefreshOnRead:
+  - value: true
+    constraints: {}
+
+system.enableEagerWorkflowStart:
+  - value: true
+    constraints: {} 

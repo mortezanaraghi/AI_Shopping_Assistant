@@ -1,0 +1,134 @@
+{
+  "sample_products": [
+    {
+      "id": 1,
+      "name": "UltraEdit Pro Laptop Model 1",
+      "category_id": 42,
+      "price_cents": 199999,
+      "specs": {
+        "ram_gb": 32,
+        "storage_gb": 1000,
+        "gpu": "RTX 4070",
+        "cpu": "Intel i7-13700H",
+        "screen_size": 15.6,
+        "weight_lbs": 4.2
+      },
+      "brand": "TechCorp",
+      "in_stock": true,
+      "fast_shipping": true
+    },
+    {
+      "id": 2,
+      "name": "Budget Gaming Laptop Model 2", 
+      "category_id": 42,
+      "price_cents": 89999,
+      "specs": {
+        "ram_gb": 16,
+        "storage_gb": 512,
+        "gpu": "GTX 1660 Ti",
+        "cpu": "AMD Ryzen 5 5600H",
+        "screen_size": 15.6,
+        "weight_lbs": 5.1
+      },
+      "brand": "ValueTech",
+      "in_stock": true,
+      "fast_shipping": false
+    },
+    {
+      "id": 3,
+      "name": "Professional Workstation Laptop Model 3",
+      "category_id": 42, 
+      "price_cents": 299999,
+      "specs": {
+        "ram_gb": 64,
+        "storage_gb": 2000,
+        "gpu": "RTX 4080",
+        "cpu": "Intel i9-13900H",
+        "screen_size": 17.3,
+        "weight_lbs": 6.8
+      },
+      "brand": "ProSystems",
+      "in_stock": false,
+      "fast_shipping": true
+    }
+  ],
+  "sample_merchants": [
+    {
+      "id": 12345,
+      "name": "TechMart Plus",
+      "rating": 4.7,
+      "affiliate": true,
+      "verified": true
+    },
+    {
+      "id": 67890,
+      "name": "ElectroHub",
+      "rating": 4.2,
+      "affiliate": false,
+      "verified": true
+    }
+  ],
+  "sample_promotions": [
+    {
+      "id": "SAVE20",
+      "percent_off": 20.0,
+      "amount_off": null,
+      "health": 95,
+      "is_storewide": true,
+      "merchant_id": 12345
+    },
+    {
+      "id": "TECH50",
+      "percent_off": null,
+      "amount_off": 5000,
+      "health": 88,
+      "is_storewide": false,
+      "merchant_id": 67890
+    }
+  ],
+  "sample_user_profiles": [
+    {
+      "user_id": "user_123",
+      "preferences": {
+        "laptop": 1.0,
+        "gaming": 0.8,
+        "budget": 0.6,
+        "performance": 0.9
+      },
+      "price_sensitivity": 0.7,
+      "brand_preferences": ["TechCorp", "ValueTech"],
+      "recency": 5,
+      "expertise_level": "intermediate"
+    },
+    {
+      "user_id": "user_456",
+      "preferences": {
+        "professional": 1.0,
+        "workstation": 0.9,
+        "high-end": 0.8
+      },
+      "price_sensitivity": 0.2,
+      "brand_preferences": ["ProSystems"],
+      "recency": 12,
+      "expertise_level": "expert"
+    }
+  ],
+  "sample_criteria_scores": [
+    {
+      "product_id": 1,
+      "criteria": [
+        {"criteria_id": 1, "rating": 4.8, "response_type": "yes"},
+        {"criteria_id": 2, "rating": 4.5, "response_type": "yes"},
+        {"criteria_id": 3, "rating": 4.2, "response_type": "maybe"}
+      ]
+    },
+    {
+      "product_id": 2,
+      "criteria": [
+        {"criteria_id": 1, "rating": 3.9, "response_type": "yes"},
+        {"criteria_id": 2, "rating": 4.1, "response_type": "yes"},
+        {"criteria_id": 3, "rating": 3.7, "response_type": "no"}
+      ]
+    }
+  ]
+} 
