@@ -403,10 +403,6 @@ docs/
 - Mock external dependencies
 - Test error conditions and edge cases
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🆘 Support
 
 For support and questions:
@@ -424,6 +420,3 @@ For support and questions:
 - [ ] Additional tool integrations
 - [ ] Real-time collaboration features
 
----
-
-**Built with ❤️ for intelligent shopping assistance** 
